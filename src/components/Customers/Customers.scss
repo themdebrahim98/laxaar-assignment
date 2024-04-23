@@ -1,0 +1,24 @@
+.customerWrapper {
+  box-shadow: 9px 0px 16px 0px #9fa2bf2e;
+
+  .filterInputBoxWrapper {
+    display: flex;
+    justify-content: end;
+    background-color: #ffffff;
+    padding: 12px;
+
+    .filterInputBox {
+      width: 150px;
+      height: 36px;
+      padding: 6px 9px 6px 8px;
+      border-radius: 10px;
+      border: 1px solid #f87060;
+      font-weight: 400;
+      font-size: 14px;
+
+      .filterInputBoxSearchIcon {
+        color: #f87060;
+      }
+    }
+  }
+}
